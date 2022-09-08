@@ -1,5 +1,7 @@
 {
     "configurations": [
+
+
         {
             "type": "java",
             "name": "Spring Boot-DsmetaApplication<dsmeta>",
@@ -8,7 +10,13 @@
             "mainClass": "com.devsuperior.dsmeta.DsmetaApplication",
             "projectName": "dsmeta",
             "args": "",
-            "envFile": "${workspaceFolder}/.env"
+            "envFile": "${workspaceFolder}/.env",
+            "env": {
+                "TWILIO_SID":"AC7ab55a0953e981dc34cf012d773e0660",
+                "TWILIO_KEY":"e48c0f47855abb23f17cb7810fb53f2d",
+                "TWILIO_PHONE_FROM":"+19853362654",
+                "TWILIO_PHONE_TO":"+5519995934779"
+            }
         }
     ]
 }
